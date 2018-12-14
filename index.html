@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jq.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Week 4 Independent Project (PIG DICE)</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-9">
+        <h1 class="jumbotron">PIG DICE</h1>
+
+
+
+
+<form id="newplayer" action="index.html" method="post">
+        <div>
+          <label for="player1">Player 1</label>
+          <input type="text" name="" value="">
+
+        </div>
+
+        <div>
+          <label for="player2">Player 2</label>
+          <input type="text" name="" value="">
+
+
+        </div>
+        </form>
+        <button type="button" name="button" id="do" class="dice">Play</button>
+        <button type="button" name="button" id="dt" class="dice">hold</button>
+        <button type="button" name="button">Refresh</button>
+      </div>
+      <div class="col-md-3">
+        <h2>Rules of the Game</h2>
+        <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</p>
+        <ul>
+          <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+          <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+          <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+
+        </ul>
+        <p>The first player to score 100 or more points wins.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+</body>
+
+</html>
