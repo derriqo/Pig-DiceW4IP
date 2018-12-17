@@ -1,5 +1,4 @@
-
-// Business ogic
+// Business Logic
 
 function PigDice(diceSides) {
 
@@ -18,7 +17,6 @@ $(document).ready(function() {
     var placeholder = document.getElementById('placeholder');
     placeholder.innerHTML = number;
   }
-
   var button = document.getElementById('droll');
 
   $("#droll").click(function() {

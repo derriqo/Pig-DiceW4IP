@@ -9,7 +9,7 @@ My name is **Derrick William** the creator of this Game.I am in my fourth week a
 
 ## Project Setup Instruction
 To get started with this Game. There are very simple steps required;
-1. Get Connected to the internet.
+1. Get Connected to the Internet.
 2. Enter the name/names of the players.
 3. Start playing.
 
