@@ -7,14 +7,16 @@ body {
 h1 {
   text-align: center;
   color: red;
-  text-align: right;
 }
 
 .jumbotron {
-  width: 500px;
+  /* width: 500px; */
 }
 
 h2 {
   font-family: Tahoma, Geneva, sans-serif;
   color: red;
+}
+.col-md-4{
+  background-color: red;
 }
