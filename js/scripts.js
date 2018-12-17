@@ -1,31 +1,28 @@
-var score = 0;
-var maxScore = 100;
-var rolls = 0;
-var maxRolls = 10;
 
- function rollDice()
- {
-    var a = Math.floor(Math.random()*6)
-    var b = Math.floor(Math.random()*6)
- }
+// Business ogic
 
-// function Player (one,two) {
-//   this.oneName = one;
-//   this.twoName = two;
-// }
+function PigDice(diceSides) {
 
+  this.diceSides = diceSides;
 
-$(document).ready(function (){
- $("form#newplayer").click(function(event) {
- event.preventDefault();
+  this.roll = function() {
+    return Math.round(Math.random() * this.diceSides) + 1;
 
- var inputtedOneName = $("input#player1").val();
- var inputtedTwoName = $("input#player2").val();
+  }
 
-var newPlayer = new Player(inputtedOneName, inputtedTwoName);
-$("ul#players").append("<li><span class='contact'>" + newContact.firstName + "</span></li>");
+}
 
-   $("input#new-first-name").val("");
-   $("input#new-last-name").val("");
-});
+// User Logic
+$(document).ready(function() {
+  function printNumber(number) {
+    var placeholder = document.getElementById('placeholder');
+    placeholder.innerHTML = number;
+  }
+
+  var button = document.getElementById('droll');
+
+  $("#droll").click(function() {
+    var result = new PigDice(6)
+    printNumber(result.roll());
+  })
 });

@@ -9,14 +9,24 @@ h1 {
   color: red;
 }
 
-.jumbotron {
-  /* width: 500px; */
-}
-
 h2 {
   font-family: Tahoma, Geneva, sans-serif;
   color: red;
 }
-.col-md-4{
-  background-color: red;
+#placeholder {
+ height: 200px;
+ width: 200px;
+ padding: 50px;
+ margin: 50px auto;
+ border: 2px solid red;
+ border-radius: 10px;
+ font-size:80px;
+}
+button {
+ background-color: red;
+ border-radius: 6px;
+ color: green;
+ padding: 10px;
+ width: 100px;
+ align;center;
 }

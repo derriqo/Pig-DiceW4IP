@@ -13,9 +13,11 @@ To get started with this Game. There are very simple steps required;
 2. Enter the name/names of the players.
 3. Start playing.
 
+  link to start playing is https://derriqo.github.io/Pig-DiceW4IP/
+
 ## BDD
 **User Story**
-
+As a casual gamer i want to be able to roll the dice in numerous senarios and get different endings in the game so as to be able to enjoy and get points awarded to me and my opponent.
 
  **Implementation**
 1. Displays a random number between 1 and 6
@@ -35,10 +37,10 @@ The application runs on:
 
 
 ## Contact information
-One can contribute to the project through the following link. https://github.com/derriqo/Quiz-Board-Week3IP-
+Feel free to contribute to the project through the following link. https://github.com/derriqo/Pig-DiceW4IP
 
-email me at williamderrick100@gmail.com
-skype derriq6
+Email me at williamderrick100@gmail.com
+Skype derriq6
 
 ## License and Copyright Information
 
