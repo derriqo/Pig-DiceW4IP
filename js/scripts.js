@@ -6,7 +6,7 @@ function PigDice(diceSides) {
 
   this.roll = function() {
     return Math.round(Math.random() * this.diceSides) + 1;
-
+    
   }
 
 }
